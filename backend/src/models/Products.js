@@ -1,7 +1,5 @@
 const mongoose = require("mongoose");
 
-const moment = require("moment");
-
 //  Defining a structure for the data, to ensure data consistency
 
 const ProdSchema = new mongoose.Schema({

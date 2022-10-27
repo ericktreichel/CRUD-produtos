@@ -1,6 +1,4 @@
 const express = require("express");
-const moment = require("moment");
-moment().format("DD/MM/YY HH:mm");
 require("dotenv").config();
 const path = require("path");
 const rootRoute = require("./src/routes/index");
