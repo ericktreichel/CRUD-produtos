@@ -1,0 +1,27 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon app.js",
+        "start": "cd backend && npm install && node app.js",
+        "heroku-postbuild": "cd client && npm install && npm run build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "moment": "^2.29.4",
+        "mongoose": "^6.7.0",
+        "mongoose-sequence": "^5.3.1",
+        "path": "^0.12.7"
+    }
+}
